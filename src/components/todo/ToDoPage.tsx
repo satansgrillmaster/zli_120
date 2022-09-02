@@ -6,10 +6,10 @@ import ToDoList from "./ToDoList";
 interface AppLayoutProps {
 }
 
-const ToDoContent: React.FC <AppLayoutProps> = (props) => {
+const ToDoPage: React.FC <AppLayoutProps> = (props) => {
   return (
     <BodyLayout left={<ToDoList/>} right={<ToDoView/>}/>
   );
 }
 
-export default ToDoContent
+export default ToDoPage
