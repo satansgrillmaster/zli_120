@@ -1,0 +1,9 @@
+{
+  "Container": {
+    "prefix": "cont",
+    "description": "Grid Container",
+    "body": [
+      "container greets ${1:name}"
+    ]
+  }
+}
